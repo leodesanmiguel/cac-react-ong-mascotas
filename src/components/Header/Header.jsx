@@ -1,8 +1,9 @@
+import './header.css';
+import BarraNavegador from './nav';
+
 export const Header = () => {
-    return (
-      <>
-        <h1>Header</h1>
-      </>
-    );
-  };
-  
+  return (
+
+    <BarraNavegador />
+  );
+};
