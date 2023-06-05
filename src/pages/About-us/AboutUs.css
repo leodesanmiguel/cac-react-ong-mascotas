@@ -1,0 +1,68 @@
+.about {
+  padding: 6rem 0;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about-text h2 {
+  font-size: 2.25rem;
+  font-weight: 900;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: #254252;
+}
+
+.about-text span {
+  color: #f9982f;
+}
+
+.about-text p {
+  font-size: 18px;
+}
+
+.about-text a {
+  background-color: #f9982f;
+  color: #fff;
+  font-weight: 900;
+  padding: 0.8rem 1.5rem;
+}
+
+.about-text a:hover {
+  border: 2px solid  #f9982f;
+  background: transparent;
+  color:  #f9982f;
+}
+
+.about-img {
+  max-width: 450px;
+  margin: auto;
+}
+
+.about-img img {
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width:991px) {
+  .about {
+    padding-bottom: 7.75rem;
+  }
+
+  .about-text {
+    padding: 0px 32px 0px 32px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .card-img {
+    padding: 0;
+  }
+
+  .about-img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+
