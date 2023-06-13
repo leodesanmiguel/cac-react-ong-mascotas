@@ -1,0 +1,50 @@
+/* Globales */
+:root {
+    --dark-color: #171c2d;
+    --primary-bg-color: orange;
+    --primary-font-titles: Monserrat;
+}
+
+/* barra navegacion */
+.navegador {
+    display: flex;
+    flex-direction: row;
+    gap: .3rem;
+    align-items: center;
+    justify-content: end;
+    background-color: var(--primary-bg-color);
+    padding-right: 2rem;
+}
+
+/* botones */
+.boton {
+    background-color: var(--primary-bg-color);
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 250ms;
+    padding: 1rem;
+    cursor: pointer;
+    color: var(--dark-color);
+}
+
+.boton:hover {
+    background-color: orangered;
+    color: var(--primary-bg-color);
+}
+
+/* Logo */
+
+.imagen-header {
+    background-color: var(--primary-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem;
+}
+
+.titulo-header {
+    font-family: var(--primary-font-titles);
+    padding-left: 2rem;
+    font-weight: bold;
+}
