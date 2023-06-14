@@ -1,8 +1,65 @@
 /* Globales */
 :root {
     --dark-color: #171c2d;
+    --light-color: #eab56f;
     --primary-bg-color: orange;
+    --secondary-bg-color: #254252;
     --primary-font-titles: Monserrat;
+}
+
+/* Barra Iconos Sociales */
+.barra-social {
+    display: flex;
+    background-color: var(--secondary-bg-color);
+    color: var(--light-color);
+}
+
+.mensaje {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: .25rem 0;
+    width: 75%;
+}
+
+.social-icons {
+    width: 23%;
+    gap: 1rem;
+    display: flex;
+    justify-content: end;
+    padding: .3rem;
+}
+
+.social-imagenes {
+    width: 2rem;
+    height: 2rem;
+}
+
+.social-imagenes-small {
+    width: 1.7rem;
+    height: 1.6rem;
+
+}
+
+
+/* Logo */
+
+.imagen-header {
+    background-color: var(--primary-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: .5rem 1rem;
+}
+
+.imagen-logo {
+    height: 6rem;
+}
+
+.titulo-header {
+    font-family: var(--primary-font-titles);
+    padding-left: 2rem;
+    font-weight: bold;
 }
 
 /* barra navegacion */
@@ -14,6 +71,8 @@
     justify-content: end;
     background-color: var(--primary-bg-color);
     padding-right: 2rem;
+    border-top: 1px solid var(--dark-color);
+    position: sticky;
 }
 
 /* botones */
@@ -23,7 +82,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     transition: 250ms;
-    padding: 1rem;
+    padding: .5rem;
     cursor: pointer;
     color: var(--dark-color);
 }
@@ -31,20 +90,4 @@
 .boton:hover {
     background-color: orangered;
     color: var(--primary-bg-color);
-}
-
-/* Logo */
-
-.imagen-header {
-    background-color: var(--primary-bg-color);
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    padding: 1rem;
-}
-
-.titulo-header {
-    font-family: var(--primary-font-titles);
-    padding-left: 2rem;
-    font-weight: bold;
 }

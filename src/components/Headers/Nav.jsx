@@ -1,8 +1,8 @@
 
 import "./header.css";
 import { Link } from "react-router-dom";
-function BarraNavegador() {
 
+function BarraNavegador() {
     return (
         <>
             <nav className="navegador">
@@ -18,7 +18,6 @@ function BarraNavegador() {
                 <button className="boton" type="button">
                     <Link class="nav-link" to="contacto">Contacto</Link>
                 </button>
-
             </nav>
         </>
     )
