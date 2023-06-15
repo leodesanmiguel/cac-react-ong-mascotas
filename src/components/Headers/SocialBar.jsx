@@ -7,11 +7,11 @@ export default function SocialBar() {
 
     return (
         <>
-            <section className="barra-social">
+            <section className="d-flex barra-social">
                 <div className="mensaje">
                     <h6>Rescatamos y ayudamos animales en situacion de abandono para luego darlos en adopcion responsable</h6>
                 </div>
-                <div className="social-icons">
+                <div className="d-flex social-icons">
                     <img className="social-imagenes" src={facebookIcon} alt="Logo Facebook" srcset="" />
                     <img className="social-imagenes" src={instagramIcon} alt="Logo Instagram" srcset="" />
                     <img className="social-imagenes-small" src={twitterIcon} alt="Logo Twitter" srcset="" />

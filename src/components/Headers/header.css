@@ -9,7 +9,6 @@
 
 /* Barra Iconos Sociales */
 .barra-social {
-    display: flex;
     background-color: var(--secondary-bg-color);
     color: var(--light-color);
 }
@@ -25,7 +24,6 @@
 .social-icons {
     width: 23%;
     gap: 1rem;
-    display: flex;
     justify-content: end;
     padding: .3rem;
 }
@@ -46,10 +44,6 @@
 
 .imagen-header {
     background-color: var(--primary-bg-color);
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    padding: .5rem 1rem;
 }
 
 .imagen-logo {
@@ -58,21 +52,12 @@
 
 .titulo-header {
     font-family: var(--primary-font-titles);
-    padding-left: 2rem;
-    font-weight: bold;
 }
 
 /* barra navegacion */
 .navegador {
-    display: flex;
-    flex-direction: row;
     gap: .3rem;
-    align-items: center;
-    justify-content: end;
     background-color: var(--primary-bg-color);
-    padding-right: 2rem;
-    border-top: 1px solid var(--dark-color);
-    position: sticky;
 }
 
 /* botones */

@@ -4,9 +4,9 @@ export default function ImgLogo() {
 
     return (
         <>
-            <div className="imagen-header">
-                <img className="imagen-logo" src={Logo} alt="Imagen Logo" />
-                <h1 className="titulo-header">PELUDITOS ONG</h1>
+            <div className="d-flex align-items-center ps-3 py-2 bg-warning" >
+                <img className="ps-3 imagen-logo" src={Logo} alt="Imagen Logo" />
+                <h1 className="ps-5 fw-bold">PELUDITOS ONG</h1>
             </div>
 
         </>

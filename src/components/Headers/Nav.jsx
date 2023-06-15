@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function BarraNavegador() {
     return (
         <>
-            <nav className="navegador">
+            <nav className="d-flex flex-row aligne-items-center  justify-content-end pe-4 border-top border-dark navegador">
                 <button className="boton" type="button">
                     <Link class="nav-link" to="quienes-somos">Quienes Somo</Link>
                 </button>
