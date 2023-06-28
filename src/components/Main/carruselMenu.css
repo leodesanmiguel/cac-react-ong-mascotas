@@ -1,0 +1,9 @@
+.backgImg {
+    background-image: url("../../assets/img/slider-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 28.125rem;
+    position: absolute;
+    z-index: 10;
+}
