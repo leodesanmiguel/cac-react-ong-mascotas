@@ -1,8 +1,13 @@
+
+import BarraNavegador from "./Nav";
+import SocialBar from "./SocialBar";
+
+
 export const Header = () => {
-    return (
-      <>
-        <h1>Header</h1>
-      </>
-    );
-  };
-  
+  return (
+    <>
+      <SocialBar />
+      <BarraNavegador />
+    </>
+  );
+};
