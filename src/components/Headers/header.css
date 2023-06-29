@@ -1,0 +1,78 @@
+/* Globales */
+:root {
+    --dark-color: #171c2d;
+    --light-color: #eab56f;
+    --primary-bg-color: orange;
+    --secondary-bg-color: #254252;
+    --primary-font-titles: Monserrat;
+}
+
+/* Barra Iconos Sociales */
+.barra-social {
+    background-color: var(--secondary-bg-color);
+    color: var(--light-color);
+}
+
+.mensaje {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: .25rem 0;
+    width: 75%;
+}
+
+.social-icons {
+    width: 23%;
+    gap: 1rem;
+    justify-content: end;
+    padding: .3rem;
+}
+
+.social-imagenes {
+    width: 2rem;
+    height: 2rem;
+}
+
+.social-imagenes-small {
+    width: 1.7rem;
+    height: 1.6rem;
+
+}
+
+
+/* Logo */
+
+.imagen-header {
+    background-color: var(--primary-bg-color);
+}
+
+.imagen-logo {
+    height: 6rem;
+}
+
+.titulo-header {
+    font-family: var(--primary-font-titles);
+}
+
+/* barra navegacion */
+.navegador {
+    gap: .3rem;
+    background-color: var(--primary-bg-color);
+}
+
+/* botones */
+.boton {
+    background-color: var(--primary-bg-color);
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 250ms;
+    padding: .5rem;
+    cursor: pointer;
+    color: var(--dark-color);
+}
+
+.boton:hover {
+    background-color: orangered;
+    color: var(--primary-bg-color);
+}
