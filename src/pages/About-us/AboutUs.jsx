@@ -8,7 +8,7 @@ export const AboutUs = () => {
         <div className="row align-items-center">
 
           <div className="col-lg-6 col-sm-12 mb-6 mb-lg-0 about-text">
-            <h2>Somos <span>Peluditos</span></h2>
+            <h2>Somos<span> Peluditos</span></h2>
             <p className='mb-4'>Peluditos es una Asociación sin fines de lucro,
               que nace durante el año 2011, fue creada por un grupo de vecinos preocupados
               por el maltrato y abandono de animales en situación de calle en las ciudades. 
