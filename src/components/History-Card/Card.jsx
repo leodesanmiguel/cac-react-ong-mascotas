@@ -54,7 +54,7 @@ function Card( img, text, title){
                         })
                     }
             
-                </Carousel>;
+                </Carousel>
                 
             </div>
 

@@ -1,9 +1,44 @@
+:root {
+    --dark-color: #171c2d;
+    --light-color: #eab56f;
+    --primary-bg-color: orange;
+    --secondary-bg-color: #254252;
+    --primary-font-titles: Monserrat;
+}
+
 .backgImg {
     background-image: url("../../assets/img/slider-background.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 40%;
     height: 28.125rem;
     position: absolute;
     z-index: 10;
+}
+
+/* Menu del Carrusel */
+
+.buttons {
+    border-radius: 0;
+    width: 14rem;
+    border: none;
+}
+
+.contenedorMenuCarrusel {
+    padding-top: 6rem;
+    color: var(--light-color);
+    width: 25rem;
+}
+
+.contenedorMenuCarrusel span {
+    color: yellow;
+}
+
+.contenedorMenuCarrusel h3 {
+    padding-left: 1rem;
+}
+
+.contenedorMenuCarrusel p {
+    text-align: center;
 }
