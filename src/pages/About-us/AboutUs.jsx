@@ -1,9 +1,9 @@
-import aboutImg from '../../assets/img/about-img.jpg'
+import aboutImg from '../../assets/img/nosotros.jpg'
 import './AboutUs.css'
 
 export const AboutUs = () => {
   return (
-    <section className='about bg-light'>
+    <section className='about'>
       <div className="container">
         <div className="row align-items-center">
 
