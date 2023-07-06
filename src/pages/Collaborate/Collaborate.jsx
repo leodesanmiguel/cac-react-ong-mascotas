@@ -12,12 +12,24 @@ export const Collaborate = () => {
     
         <h1 className="titulo-colaborador">Empresas que colaboran con la ONG</h1>
 
-        <div className="img-colaborador">
-          <img src={img1}  alt="imagen de marca que colabora con la ong"/>
-          <img src={img2}  alt="imagen de marca que colabora con la ong"/>
-          <img src={img3}  alt="imagen de marca que colabora con la ong"/>
-          <img src={img4}  alt="imagen de marca que colabora con la ong"/>
+        <div className="container  col-3 img-colaborador d-flex">
           
+            <div className="empresas">
+              <img src={img1}  alt="imagen de marca que colabora con la ong"/>
+            </div>
+          
+            <div className="empresas">
+              <img src={img2}  alt="imagen de marca que colabora con la ong"/>
+            </div>
+          
+          
+            <div className="empresas">
+              <img src={img3}  alt="imagen de marca que colabora con la ong"/>
+            </div>
+            <div className="empresas">
+              <img src={img4}  alt="imagen de marca que colabora con la ong"/>
+            </div>
+            
         </div>  
 
     </section>  
