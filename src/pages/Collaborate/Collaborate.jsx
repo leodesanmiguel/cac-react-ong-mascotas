@@ -10,7 +10,7 @@ export const Collaborate = () => {
     <>
       <section className="colaborador">
     
-        <h1 className="titulo-colaborador">Colabora con la ONG</h1>
+        <h1 className="titulo-colaborador">Empresas que colaboran con la ONG</h1>
 
         <div className="img-colaborador">
           <img src={img1}  alt="imagen de marca que colabora con la ong"/>
