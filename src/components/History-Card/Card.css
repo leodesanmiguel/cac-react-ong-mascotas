@@ -5,7 +5,6 @@
     left: 7%;
     position: absolute;
     z-index: 3;
-    
 }
 
 .card {
@@ -13,7 +12,7 @@
     border-radius: 18px;
     box-shadow: 1px 1px 4px 2px rgba(0, 0, 0,.2);
     padding: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     background-color: transparent;
     
 }
@@ -29,18 +28,18 @@
     transition: .2s;
     border-radius: 18px;
 }
-/**/
-.card:hover {
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
-    cursor: pointer;
-}
-
 .card-body a {
     border-radius: 6px;
     border-color: #254252;
     box-shadow: 6px 6px #e37239;
     
 }
+/**/
+.card:hover {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
 .card-body a:hover {  
     border-color: #171c2d;
     color:#171c2d;

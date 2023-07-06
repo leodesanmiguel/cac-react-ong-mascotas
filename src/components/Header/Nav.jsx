@@ -2,6 +2,7 @@ import ImgLogo from "./Logo";
 import "./header.css";
 import { Link } from "react-router-dom";
 
+ 
 function BarraNavegador() {
     return (
         <>
@@ -9,13 +10,13 @@ function BarraNavegador() {
                 <ImgLogo />
                 <nav className="d-flex flex-row aligne-items-center  justify-content-end pe-4 border-top border-dark navegador">
                     <button className="boton" type="button">
-                        <Link class="nav-link" to="quienes-somos">Quienes Somo</Link>
+                        <Link class="nav-link" to="quienes-somos">Quienes Somos</Link>
                     </button>
                     <button className="boton" type="button">
                         <Link class="nav-link" to="quieres-adoptar">Quieres Adoptar?</Link>
                     </button>
                     <button className="boton" type="button">
-                        <Link class="nav-link" to="historias">Historias</Link>
+                        <Link class="nav-link" to="/Cardslist">Historias</Link>
                     </button>
                     <button className="boton" type="button">
                         <Link class="nav-link" to="contacto">Contacto</Link>

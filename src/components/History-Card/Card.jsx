@@ -2,8 +2,8 @@ import React from 'react';
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 import './Card.css';
-import { dogs } from '../../data/dogs';
-
+import { dogs as data } from '../../data/dogs';
+import { useState, useEffect } from 'react';
 
 
 
@@ -30,6 +30,14 @@ function Card( img, text, title){
           items: 1
         }
       };
+      const [dogs, setDogs] = useState([]);
+      useEffect( () => {
+            setDogs(data);
+      }, []);
+      /*Por si el arreglo de animales a adoptar está vacio*/
+      if(dogs.length === 0){
+        return <h1>Por el momento no tenemos amiguitos para adoptar</h1>
+      }
     return(
         <>
             <div className="contiene-cards">
@@ -39,7 +47,7 @@ function Card( img, text, title){
                         dogs.map(dog => {
                             return(
                                 
-                                    <div className="card container-sm">
+                                    <div  key={dogs.index} className="card container-sm">
                                         <div className="img-cover">
                                             <img src={ dog.img } className="card-img-top"  alt={ dog.title } />                   
                                         </div>   
