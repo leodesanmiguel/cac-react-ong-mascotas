@@ -54,7 +54,7 @@ function Card( img, text, title){
                                         <div className="card-body">
                                             <h5 className="card-title mb-2">{ dog.title }</h5>
                                             <p className="card-text">{ dog.text }</p>
-                                            <a href="/" className="btn btn-ligth btn-card" >Ver Historia</a>
+                                            <a href="/Cardslist" className="btn btn-ligth btn-card" >Ver Historia</a>
                                         </div>
                                     </div>
                                    

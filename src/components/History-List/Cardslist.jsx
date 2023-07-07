@@ -1,6 +1,6 @@
 import React from 'react';
 import Cardlist from '../History-List/Cardlist';
-
+import BarraNavegador  from '../Header/Nav';
 
 
 
@@ -8,7 +8,7 @@ const Cardslist = () => {
   return (
 
     <>
-        <h1>Holaaaa</h1>
+        <BarraNavegador />
         <Cardlist />
         
     </>

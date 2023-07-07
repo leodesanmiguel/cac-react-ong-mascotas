@@ -16,7 +16,7 @@ function BarraNavegador() {
                         <Link class="nav-link" to="quieres-adoptar">Querés Adoptar?</Link>
                     </button>
                     <button className="boton" type="button">
-                        <Link class="nav-link" to="/Cardslist">Historias</Link>
+                        <Link class="nav-link" to="historias" href="/Cardslist">Historias</Link>
                     </button>
                     <button className="boton" type="button">
                         <Link class="nav-link" to="contacto">Contacto</Link>
