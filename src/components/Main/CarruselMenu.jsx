@@ -19,12 +19,12 @@ function CarruselMenu() {
             </Carousel.Item>
             <Carousel.Item>
                 <Container className="contenedorMenuCarrusel">
-                    <h1>Adopta y</h1>
-                    <h3>hace <span>la diferencia</span></h3>
+                    <h1>Adoptá y</h1>
+                    <h3>hacé <span>la diferencia</span></h3>
                     <p>Hay cientos de perros y gatos esperando tener un hogar.
-                        ¿Queres adoptar?
+                        ¿Querés adoptar?
                     </p>
-                    <Button variant="warning" className="buttons">ADOPTA</Button>
+                    <Button variant="warning" className="buttons">ADOPTÁ</Button>
                 </Container>
 
 
@@ -34,9 +34,9 @@ function CarruselMenu() {
             </Carousel.Item>
             <Carousel.Item>
                 <Container className="contenedorMenuCarrusel">
-                    <h1>Colabora y</h1>
+                    <h1>Colaborá y</h1>
                     <h3>ayudanos a <span>ayudarlos</span></h3>
-                    <p>Tu ayuda nos permite seguir rescatando y ayudando animales en situacion de abandono</p>
+                    <p>Tu ayuda nos permite seguir rescatando y ayudando animales en situación de abandono</p>
                     <Button variant="warning" className="buttons">QUIERO COLABORAR</Button>
                 </Container>
 

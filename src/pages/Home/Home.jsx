@@ -13,8 +13,8 @@ export const Home = () => {
       <AboutUs />
       <Statistics />
       <Histories />
-      <ForAdoption />
       <Collaborate />
+      <ForAdoption />
       <NewLetter />
     </>
   );
