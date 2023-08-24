@@ -1,7 +1,6 @@
 .carousel-cards {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     padding: 10px 0;
-    background: #e37239;
 }
 h3.section-card {
     width: auto;
@@ -11,23 +10,15 @@ h3.section-card {
     margin: 4rem;
 }
 .wave {
-    margin-top: 10px;
-    padding-top: 20px;
+   
     width: 100%;
     height: 500px;
-    position: relative;
 }
-#wave {
-    top: 30%;
-    z-index:2;
-    position: absolute;
-}
+
 /* Breakpoint */
 @media (width <= 686px) {
     h3.section-card {
         font-size: 1.5rem;
     }
-    #wave {
-        display: none;
-    }
+    
 }

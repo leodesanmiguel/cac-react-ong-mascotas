@@ -1,11 +1,10 @@
 import Card from '../History-Card/Card';
 
-
 function Cards() {
     return(
         <>
-        <Card />
-        </>
+            <Card />
+         </>
     )
 };
 export default Cards;

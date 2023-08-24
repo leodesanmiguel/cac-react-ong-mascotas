@@ -8,30 +8,32 @@ import img4 from '../../assets/img-colaborador/Logo-pelu.png';
 export const Collaborate = () => {
   return (
     <>
-      <section className="colaborador">
+      <section className="colaborador mb-6" >
     
         <h1 className="titulo-colaborador">Empresas que colaboran con la ONG</h1>
-
-        <div className="container  col-3 img-colaborador d-flex">
-          
-            <div className="empresas">
-              <img src={img1}  alt="imagen de marca que colabora con la ong"/>
-            </div>
-          
-            <div className="empresas">
-              <img src={img2}  alt="imagen de marca que colabora con la ong"/>
-            </div>
-          
-          
-            <div className="empresas">
-              <img src={img3}  alt="imagen de marca que colabora con la ong"/>
-            </div>
-            <div className="empresas">
-              <img src={img4}  alt="imagen de marca que colabora con la ong"/>
-            </div>
+        <div className="content-box colaborador" >
+          <div className="container">
+            <div className="row" >
             
-        </div>  
-
+            
+              <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <img className="figure-img img-fluid mx-auto d-block" src={img1} alt="empresa colaboradora"      />
+              </div>
+              <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3" >
+                <img className="figure-img img-fluid mx-auto d-block" src={img2} alt="empresa colaboradora"      />
+                
+              </div>
+              <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3" >
+                <img className="figure-img img-fluid mx-auto d-block" src={img3} alt="empresa colaboradora"      />
+                
+              </div>
+              <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3" >
+                <img className="figure-img img-fluid mx-auto d-block" src={img4} alt="empresa colaboradora"      />
+              </div>
+              </div>
+          </div>
+        </div>
+       
     </section>  
     </>
   );

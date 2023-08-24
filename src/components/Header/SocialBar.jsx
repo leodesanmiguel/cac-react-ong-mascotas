@@ -9,7 +9,7 @@ export default function SocialBar() {
         <>
             <section className="d-flex barra-social">
                 <div className="mensaje">
-                    <h6>Rescatamos y ayudamos animales en situacion de abandono para luego darlos en adopcion responsable</h6>
+                    <h6>Rescatamos y ayudamos animales en situación de abandono para luego darlos en adopción responsable</h6>
                 </div>
                 <div className="d-flex social-icons">
                     <img className="social-imagenes" src={facebookIcon} alt="Logo Facebook" srcset="" />

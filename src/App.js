@@ -5,9 +5,7 @@ import { Footer } from "./components/Footer/Footer";
 import { Home } from "./pages/Home/Home";
 import { AboutUs } from "./pages/About-us/AboutUs";
 import { Collaborate } from "./pages/Collaborate/Collaborate";
-import { ForAdoption } from "./pages/For-adoption/ForAdoption";
-import { NewLetter } from "./pages/New-letter/NewLetter";
-import Cardslist from "./components/History-List/Cardslist";
+import { Cardlist } from "./components/History-List/Cardlist";
 
 function App() {
   return (
@@ -19,9 +17,7 @@ function App() {
           <Route path="home" element={<Home />}></Route>
           <Route path="about-us" element={<AboutUs />}></Route>
           <Route path="collaborate" element={<Collaborate />}></Route>
-          <Route path="for-adoption" element={<ForAdoption />}></Route>
-          <Route path="historias"    element={<Cardslist />}></Route>
-          <Route path="new-letter" element={<NewLetter />}></Route>
+          <Route path="historias"  element={<Cardlist />}></Route>
         </Routes>
 
         <Footer />
