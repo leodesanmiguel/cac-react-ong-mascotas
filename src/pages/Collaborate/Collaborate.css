@@ -1,9 +1,10 @@
-.colaborador {
-    width: 100%;
-    height: 90vh;
-    padding-bottom: 8% ;
-    margin: auto;
-
+.content-box.colaborador {
+   
+    background-image: url(../../assets/img/bg-stats.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
 }
 .titulo-colaborador {
     text-align: center;
@@ -13,34 +14,26 @@
     padding: 20px;
     margin-bottom:40px;
 }
-.img-colaborador {
-    width: 100%;
-    height: 60vh;
-    margin: 1rem auto;
-}
-.empresas {
-    width: 50%;
-    height: auto;
-    padding: 40px 10px 10px 10px;
-    margin: 20px 5px;
-}
-.empresas img {
-   width:100%;
+.colaborador img {
+   width: 80%;
    height: auto;
    padding: auto;
+   object-fit: contain;
 }
 
-@media (width <= 756px) {
+@media (width <= 767px) {
     
     .titulo-colaborador {
         font-size: 1.3rem;
     }
-    .img-colaborador {
-        height: auto;
-
+    .colaborador img {
+        width: 50%;
+        object-fit: contain;
         padding: 0;
     }
-    
+    .content-box.colaborador {
+        height: 100%;
+    }
     
     
 }

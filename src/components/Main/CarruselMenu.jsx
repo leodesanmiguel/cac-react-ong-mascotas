@@ -9,7 +9,7 @@ function CarruselMenu() {
                 <Container className="contenedorMenuCarrusel">
                     <h1>Ayudanos</h1>
                     <h3>sumate <span>como voluntario</span></h3>
-                    <p>Sumate a nuestro equipo de Voluntarios que dia a dia nos ayudan en nuestro trabajo.</p>
+                    <p>Sumate a nuestro equipo de Voluntarios que día a día nos ayudan en nuestro trabajo.</p>
                     <Button variant="warning" className="buttons">QUIERO SER VOLUNTARIO</Button>
                 </Container>
 

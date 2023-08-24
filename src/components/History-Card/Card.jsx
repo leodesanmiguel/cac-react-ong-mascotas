@@ -9,12 +9,12 @@ import { useState, useEffect } from 'react';
 
 
 function Card( img, text, title){
-   
+    
     const responsive = {
         
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 3
+          items: 3 /*cantidad de cards a mostrar de acuerdo al breakpoint mostrado arriba  */
         },
         laptop : {
             breakpoint: { max: 1024, min: 970 },
@@ -26,10 +26,11 @@ function Card( img, text, title){
     
         },
         mobile: {
-          breakpoint: { max: 689, min: 464 },
+          breakpoint: { max: 680, min: 320 },
           items: 1
         }
       };
+      
       const [dogs, setDogs] = useState([]);
       useEffect( () => {
             setDogs(data);
@@ -54,7 +55,7 @@ function Card( img, text, title){
                                         <div className="card-body">
                                             <h5 className="card-title mb-2">{ dog.title }</h5>
                                             <p className="card-text">{ dog.text }</p>
-                                            <a href="/" className="btn btn-ligth btn-card" >Ver Historia</a>
+                                            <a href="/Cardslist" className="btn btn-ligth btn-card" >Ver Historia</a>
                                         </div>
                                     </div>
                                    

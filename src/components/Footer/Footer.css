@@ -1,0 +1,24 @@
+.footer {
+    color: #254252;
+}
+.interior a {
+   text-decoration: none;
+   color: #254252;
+}
+.footer img {
+    width: auto;
+    height: 4rem;
+}
+.social {
+    margin-bottom: 0;
+}
+.social-icons img {
+    width: 2rem;
+    height: auto;
+}
+@media screen and (max-width:767px) {
+   
+    .barra-social .mensaje h6 {
+        display: none;
+    }
+  }

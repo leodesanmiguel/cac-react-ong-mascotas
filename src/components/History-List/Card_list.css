@@ -1,0 +1,13 @@
+.contenedor {
+  width: 90%;
+  max-width: 10000px;
+}
+.dogscards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.listado {
+    color: #254252;
+    text-align: center;
+    margin-bottom: 2rem;
+}
